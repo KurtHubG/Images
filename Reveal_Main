@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quilt Project Documentation</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.2.0/reveal.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.2.0/theme/moon.css"
+      id="theme"
+    />
+    <style>
+
+      body {
+        background-color: #f7f7f7;
+        background-image: url("https://source.unsplash.com/1920x1080/?quilting");
+        background-size: cover;
+        background-position: center;
+        font-family: "Arial", sans-serif;
+      }
+      .reveal {
+        background-color: transparent;
+      }
+      .slides {
+        color: #fff;
+      }
+      section {
+        background-color: rgba(0, 0, 0, 0.7);
+        padding: 50px;
+        border-radius: 10px;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+      }
+      h1,
+      h2 {
+        font-family: "Georgia", serif;
+      }
+      ul,
+      ol {
+        padding-left: 20px;
+      }
+      li {
+        margin-bottom: 10px;
+      }
+      .progress-photos {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 20px;
+      }
+      .progress-photos img {
+        max-width: 200px;
+        border-radius: 8px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease-in-out;
+      }
+      .progress-photos img:hover {
+        transform: scale(1.1);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides">
+        <section data-transition="fade">
+          <h1>Quilt Project Documentation</h1>
+          <p>Welcome to the documentation of my in-progress quilt project.</p>
+        </section>
+
+        <section data-transition="slide-in fade-out">
+          <h2>Quilt Overview</h2>
+          <p>Here's a brief overview of my quilt project:</p>
+          <ul>
+            <li>
+              Design: For my design, I chose colors that I felt complimented
+              each other well within the constraints of a 9 patch quilt design.
+            </li>
+            <li>
+              Materials: Textile material, Needle, Thread, Thimble, Pins, Pin
+              Cushion, Sewing Machine, Fabric Cutter, Thread Cutter
+            </li>
+            <li>
+              Techniques: Straight Line Quilting, Reverse Stockinette Stitch.
+            </li>
+          </ul>
+        </section>
+
+        <section data-transition="slide-in fade-out">
+          <h2>Progress Photos</h2>
+          <p>Here are some photos of my progress:</p>
+          <div class="progress-photos">
+            <img src="IMG_8624.jpg" alt="Progress Photo 1" />
+            <img src="progress_photo2.jpg" alt="Progress Photo 2" />
+          </div>
+        </section>
+
+        <section data-transition="slide-in fade-out">
+          <h2>Challenges</h2>
+          <p>Document any challenges you've encountered during the project:</p>
+          <ul>
+            <li>
+              Challenge 1: Working with a brand new medium presents challenges
+              but offers growth opportunities as well!
+            </li>
+            <li>
+              Challenge 2: After working a bit by hand, I taught myself how to
+              use an old sewing machine and it was at first quite frustrating,
+              as I grew more confident it became a very powerful tool.
+            </li>
+          </ul>
+        </section>
+
+        <section data-transition="slide-in fade-out">
+          <h2>Next Steps</h2>
+          <p>Outline the next steps in your quilt project:</p>
+          <ol>
+            <li>
+              Step 1: Clean up some of the threads and the outer edge of the
+              quilt.
+            </li>
+            <li>
+              Step 2: Add a padding in between a second outer layer to make it a
+              more proper quilt.
+            </li>
+          </ol>
+        </section>
+      </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.2.0/reveal.min.js"></script>
+    <script>
+      // Initialize reveal.js
+      Reveal.initialize({
+        // Choose the theme: black, white, league, sky, beige, simple, serif, blood, night, moon, solarized
+        hash: true,
+        transition: "fade", // Set default transition to fade
+      });
+    </script>
+  </body>
+</html>
